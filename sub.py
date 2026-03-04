@@ -1,6 +1,6 @@
 from main import Animal
 
-
+# Concrete animal class
 class Human(Animal):
     def __init__(self, name: str):
         super().__init__(name, sound="Hello")
