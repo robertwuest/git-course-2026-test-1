@@ -1,4 +1,5 @@
 class Animal:
+    # constructor function
     def __init__(self, name: str, sound: str, category: str, color: str) -> None:
         self.name = name
         self.sound = sound
