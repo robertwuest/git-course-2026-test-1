@@ -1,4 +1,5 @@
 class Animal:
+    # this is another comment for constructon
     # constructor function
     def __init__(self, name: str, sound: str, category: str, color: str) -> None:
         self.name = name
