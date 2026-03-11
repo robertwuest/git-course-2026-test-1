@@ -9,9 +9,3 @@ class Person:
     def birthday(self):
         self.age += 1
         return f"Happy birthday! {self.name} is now {self.age}."
-
-
-# Example usage
-person = Person("Alice", 30)
-print(person.greet())
-print(person.birthday())
