@@ -1,8 +1,9 @@
 class Animal:
-    def __init__(self, name: str, sound: str, category: str) -> None:
+    def __init__(self, name: str, sound: str, category: str, color: str) -> None:
         self.name = name
         self.sound = sound
         self.category = category
+        self.color = color
 
     def speak(self) -> str:
         return f"{self.name} says {self.sound}!"
